@@ -7,5 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Login</h1>
+
+        <label for="email">Email</label> <br />
+        <input type="email" id="email" name="email" class="fill" /> <br />
+
+        <label for="password">Password</label> <br />
+        <input type="password" id="password" name="password" class="fill" />
+        <br />
+
+        <label for="genero">Género</label> <br />
+        <select name="genero" id="genero" class="fill">
+          <option value="hombre">Hombre</option>
+          <option value="mujer">Mujer</option>
+          <option value="otro">Prefiero no decirlo</option>
+        </select>
+        <br />
+
+        <label for="terminos">
+          <input type="checkbox" name="terminos" id="terminos" />
+          Acepto los términos y condiciones
+        </label>
+        <br />
+        <div class="button">
+          <button type="submit">Ingresar</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
